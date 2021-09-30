@@ -24,42 +24,11 @@
 
        //end main
 
-       //begin void prompt function( i, b, p)
 
-            prompt for i and save it
-            prompt for b and save it
-            prompt for p and save it
-
-       //end prompt function
     //end class Solution26
 
 
-    //begin class   PaymentCalculator
 
-       private     double n //number of months
-       private     double i //APR divided by 365
-       private     double b //balance on the credit card
-       private     double p //monthly payment
-
-
-       public PaymentCalculator( double APR, double balance, double monthlyPayment)
-        {
-
-                i = APR / 365;
-                b = balance;
-                p = monthlyPayment;
-        }
-
-       public double calculateMonthsUntilPaidOff()
-       {
-             return -(1/30) * log(1 + b/p * (1 - (1 + i)^30)) / log(1 + i);
-
-       }
-
-
-
-
-    //end class  PaymentCalculator
 
 
 *
@@ -76,6 +45,68 @@
 package baseline;
 
 
+import java.util.Scanner;
 
 public class Solution26 {
-}
+
+
+    public static void main(String[] args) {
+        double APR = 0.0;
+        double balance = 0.0;
+        double monthlyPayment = 0.0;
+        double numberMonths;
+
+        balance = prompt1();
+        APR = prompt2();
+        monthlyPayment = prompt3();
+
+        PaymentCalculator calculator1 = new PaymentCalculator(APR, balance, monthlyPayment);
+
+        numberMonths = calculator1.calculateMonthsUntilPaidOff();
+
+
+        numberMonths = Math.ceil(numberMonths);//rounding up
+
+        System.out.printf("It will take you %.0f months to pay off this card.", numberMonths);
+
+    }//end main
+
+    //begin void prompt function( i, b, p)
+    static double prompt1(){
+        //prompt for i and return it
+        double i;
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Please type your balance");
+        i = input.nextDouble();
+
+        return i;
+
+    }//end prompt function
+
+    static double prompt2(){
+        //prompt for i and return it
+        double i;
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Please type your APR");
+        i = input.nextDouble();
+
+        return i;
+
+    }//end prompt function
+
+    static double prompt3(){
+        //prompt for i and return it
+        double i;
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Please type your monthly payment");
+        i = input.nextDouble();
+
+        return i;
+
+    }//end prompt function
+
+}//end class
+
