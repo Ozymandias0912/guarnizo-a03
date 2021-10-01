@@ -1,0 +1,33 @@
+
+b	java:S116	"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ÞÒï
+g
+java:S1450	"QRemove the "ID" field and declare it as a local variable in the relevant methods.(»ÞÒï
+u
+java:S1450"XRemove the "firstName" field and declare it as a local variable in the relevant methods.(š„¦¿8Ç†ÈãÃ/
+r
+java:S1450"WRemove the "lastName" field and declare it as a local variable in the relevant methods.(ºàÑïúÿÿÿÿ
+q
+java:S1450
+"VRemove the "zipcode" field and declare it as a local variable in the relevant methods.(øü¨÷þÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä»ë™
+h
+java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ï™½Ž
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(ãì¿Æ
+O
+java:S1854p"9Remove this useless assignment to local variable "check".(„–¾É
+]
+java:S1126€"AReplace this if-then-else statement by a single return statement.(ÒÙÊËýÿÿÿÿ
+J
+java:S1068"-Remove this unused "firstName" private field.(š„¦¿8Ò†ÈãÃ/
+G
+java:S1068",Remove this unused "lastName" private field.(ºàÑïúÿÿÿÿ
+<
+java:S1068	"&Remove this unused "ID" private field.(»ÞÒï
+F
+java:S1068
+"+Remove this unused "zipcode" private field.(øü¨÷þÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä»ë™
+f	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï™½Ž
+g	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò™Í
+b
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(ä»ë™
