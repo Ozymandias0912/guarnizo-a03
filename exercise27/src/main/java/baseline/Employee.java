@@ -4,22 +4,51 @@ public class Employee {
 
     //begin employee class
 
-       private String firstName;
-       private String lastName;
-       private String ID;
-       private int zipcode;
+    private String firstName;
+    private String lastName;
+    private String ID;
+    private int zipcode;
+
+
+
+
+
+
+
+
+
+
+
 
        public void Employee(String firstName, String  lastName, String ID, int zipcode){
+
+            String[] errorStringArray = new String[7];
+           errorStringArray[0] = "The first name must be at least 2 characters long.";
+           errorStringArray[1] = "The first name must be filled in.";
+           errorStringArray[2] = "The last name must be at least 2 characters long.";
+           errorStringArray[3] = "The last name must be filled in.";
+           errorStringArray[4] = "The employee ID must be in the format of AA-1234";
+           errorStringArray[5] = "The zipcode must be a 5 digit number.";
+           errorStringArray[6] = "There were no errors found";
+
+           int[] errorArray = new int[7];
+
+           for(int i = 0; i < 7; i++) {
+
+               errorArray[i] = 0;
+           }
+
 
            if(checkFirstName(firstName)) {
                this.firstName = firstName;
            }
            else{
                if(firstName.length() == 1){
-                   System.out.println("The first name must be at least 2 characters long.");
+                   errorArray[0] = 1;
+
                }
                else{
-                   System.out.println("The first name must be filled in.");
+                   errorArray[1] = 1;
                }
 
            }
@@ -28,10 +57,10 @@ public class Employee {
            }
            else{
                if(lastName.length() == 1){
-                   System.out.println("The last name must be at least 2 characters long.");
+                   errorArray[2] = 1;
                }
                else{
-                   System.out.println("The last name must be filled in.");
+                   errorArray[3] = 1;
                }
 
            }
@@ -39,20 +68,31 @@ public class Employee {
                this.ID = ID;
            }
            else{
-               System.out.println("The employee ID must be in the format of AA-1234");
+               errorArray[4] = 1;
            }
            if(zipcode < 99999 && zipcode > 9999) {
                this.zipcode = zipcode;
            }
            else{
-               System.out.println("The zipcode must be a 5 digit number.");
+               errorArray[5] = 1;
            }
            if((checkFirstName(firstName)) && (checkLastName(lastName)) && (checkID(ID)) && (zipcode < 99999 && zipcode > 9999))
            {
-               System.out.println("There were no errors found");
+               errorArray[6] = 1;
            }
 
-       }
+           for(int i = 0; i < 7; i++ ){
+
+               if(errorArray[i] == 1){
+
+                  System.out.printf("%s%n", errorStringArray[i]) ;
+               }
+
+
+
+           }//Using only one printing statement
+
+       }//end Employee method
 
 
 
@@ -119,4 +159,5 @@ public class Employee {
 
     }
 
-}
+
+}//end of class
