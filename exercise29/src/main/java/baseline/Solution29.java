@@ -11,6 +11,10 @@
         Prompt for the rate of return
         save the input in rate
 
+        call calculateDoublingTime method
+
+        
+
 
     //end main
 
