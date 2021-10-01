@@ -56,7 +56,7 @@ public class Employee {
 
 
 
-      public boolean checkFirstName(String firstname){
+      static public boolean checkFirstName(String firstname){
 
         if(firstname.length() == 0){
 
