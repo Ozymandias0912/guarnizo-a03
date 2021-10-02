@@ -4,61 +4,21 @@
  */
 
 package baseline;
+
+import java.util.Scanner;
+
+import static baseline.gameSet.guess;
+
 /*
 *   Guess the Number Game
 *
-* //gameSet class
-* //size
-* //int array
 *
-* //void constructor easy method(10, array)
-*
-* //void constructor medium method(100, array)
-*
-* //void constructor hard method(1000, array)
-*
-* //boolean guess method()
-*
-*   //uses checkInput method()
-*   //uses hint method()
-*
-* //boolean checkInput method(input)
-*
-* //void hint method(input)
-*
-* //int pickNumber method()
-*
-*
-*
-*
-* //end gameSet class
 *
 * //solution38 class
 *   //main
-*           //call startGame method()
-*           //print do you want to play again?
-*           //scan input in answer variable
-*       //if(answer = yes)
-*           //call startGame()
-*           //if(answer = no)
-*               //exit program
-*           //else
-*               //print do you want to play again?
+*
 *   //end main
-*  //startGame method()
- *        //create scanner
- *        //create guess counter
- *       //ask the user for difficulty
- *       //call the right constructor
- *       //call pickNumber method()
- *       //while(!guess method)
- *           //call guess method
- *           //counter ++
- *       //if(guess method)
- *           //counter ++
- *           //print you got it in "counter" guesses!
- *
- *   //end startGame method()
+*
 *
 * //end solution38 class
 *
@@ -67,4 +27,71 @@ package baseline;
 *
 * */
 public class Solution32 {
+    public static void main(String[] args) {
+        //call startGame method()
+        startGame();
+        //call playAgain method
+        playAgain();
+
+    }
+
+    //startGame method()
+    static void startGame(){
+        //create scanner
+        Scanner input = new Scanner(System.in);
+
+
+        //ask the user for difficulty
+        System.out.println("Enter the difficulty level (1, 2, or 3):");
+        int difficultyLevel = input.nextInt();
+
+        //call the constructor
+        gameSet game01 = new gameSet();
+        int upperBound = game01.gameSet(difficultyLevel);
+        //call pickNumber method()
+        int randomNumber = game01.randomNumber(upperBound);
+
+        int counter = 0;
+
+        int check = guess(randomNumber);
+
+        while(check == 0){
+            counter = counter + 1;
+            check = guess(randomNumber);
+        }
+
+        counter = counter + 1;
+
+        System.out.printf("you got it in %d guesses!%n", counter);
+
+
+    } //end startGame method()
+
+    //play again method
+    static void playAgain(){
+        //print do you want to play again?
+        System.out.println("Do you want to play again?");
+        //scan input in answer variable
+        Scanner input = new Scanner(System.in);
+        String answer = input.next();
+        //if(answer = yes)
+        if(answer.charAt(0) == 'Y' || answer.charAt(0) == 'y'){
+            //call startGame()
+            startGame();
+        }
+
+            //if(answer = no)
+        if(answer.charAt(0) == 'N' || answer.charAt(0) == 'n'){
+                //exit program
+                System.exit(0);
+        }
+        else{
+                //call playAgain method
+                playAgain();
+        }
+
+    }
+
+
+
 }
