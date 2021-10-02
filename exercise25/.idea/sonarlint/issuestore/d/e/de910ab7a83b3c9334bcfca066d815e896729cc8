@@ -1,0 +1,14 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(õÜ’“
+S	java:S106"9Replace this use of System.out or System.err by a logger.(’ìè±ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼³®÷
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(Ü½Ãƒ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ÔòÏÃûÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(óú¹Óúÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(Ä­Ú¿
+h
+java:S37765"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(¶¹­Œ
+]
+java:S1126»"AReplace this if-then-else statement by a single return statement.(žÔØÐÿÿÿÿÿ
+]
+java:S1126È"AReplace this if-then-else statement by a single return statement.(“³Í»ùÿÿÿÿ

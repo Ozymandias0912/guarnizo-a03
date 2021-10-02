@@ -1,0 +1,12 @@
+
+]
+java:S18548"BRemove this useless assignment to local variable "monthlyPayment".(î‰ƒûøÿÿÿÿ
+V
+java:S18547";Remove this useless assignment to local variable "balance".(«ìÊƒûÿÿÿÿ
+R
+java:S18546"7Remove this useless assignment to local variable "APR".(„’Œæúÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(ã«’Ø
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(ô‹ûÙþÿÿÿÿ
+N	java:S106\"9Replace this use of System.out or System.err by a logger.(ŒÞíÁ
+M	java:S106h"9Replace this use of System.out or System.err by a logger.(ÎÎÍ
+k	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„’Œæúÿÿÿÿ
