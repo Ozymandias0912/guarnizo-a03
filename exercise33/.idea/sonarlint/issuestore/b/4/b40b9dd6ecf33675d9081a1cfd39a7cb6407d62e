@@ -1,0 +1,10 @@
+
+4
+java:S2119"Save and re-use this "Random".(ó÷Ö‘
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¤»ì
+^
+java:S1854"<Remove this useless assignment to local variable "question".(‰°åÔüÿÿÿÿ8ë‹—Ä/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(–îÑØ
+O
+java:S1481"-Remove this unused "question" local variable.(‰°åÔüÿÿÿÿ8ó‹—Ä/
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(î ŒÎúÿÿÿÿ
