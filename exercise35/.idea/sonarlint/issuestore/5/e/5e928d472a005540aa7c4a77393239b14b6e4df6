@@ -1,0 +1,14 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(°ƒ¯¸üÿÿÿÿ
+9
+java:S2119"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‹÷òúúÿÿÿÿ
+{
+java:S1319"eThe type of "names" should be an interface such as "List" rather than the implementation "ArrayList".(Î´ì‚
+
+java:S1319"eThe type of "names" should be an interface such as "List" rather than the implementation "ArrayList".(Ã¢€x8«Ûğ«Ñ/
+r
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "name".(ô¯¼¾
+t
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "winner".(¾‰­”
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©öó
