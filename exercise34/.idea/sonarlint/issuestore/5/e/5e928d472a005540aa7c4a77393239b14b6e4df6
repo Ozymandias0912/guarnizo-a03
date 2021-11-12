@@ -1,0 +1,17 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ãıó›8¡îïªÑ/
+s
+java:S3457$"Q%n should be used in place of \n to produce the platform-specific line separator.(Êÿû¡øÿÿÿÿ8¦îïªÑ/
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Êÿû¡øÿÿÿÿ8¦îïªÑ/
+s
+java:S3457("Q%n should be used in place of \n to produce the platform-specific line separator.(ÃËğ©úÿÿÿÿ8«îïªÑ/
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ÃËğ©úÿÿÿÿ8«îïªÑ/
+…
+java:S1319"hThe type of "Employee" should be an interface such as "List" rather than the implementation "ArrayList".(Â–îª8«îïªÑ/
+Š
+java:S1319!"hThe type of "Employee" should be an interface such as "List" rather than the implementation "ArrayList".(ÎõÛ±ıÿÿÿÿ8«îïªÑ/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â–îª8«îïªÑ/
+r	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎõÛ±ıÿÿÿÿ8«îïªÑ/
+y
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "name".(ô¯¼¾8«îïªÑ/
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©öó
