@@ -1,7 +1,11 @@
 
-N	java:S106&"9Replace this use of System.out or System.err by a logger.(¬éýÐ
-S	java:S1061"9Replace this use of System.out or System.err by a logger.(Äñ½…ÿÿÿÿÿ
-N	java:S106<"9Replace this use of System.out or System.err by a logger.(”Ãá§
-N	java:S106G"9Replace this use of System.out or System.err by a logger.(Òúó½
+[
+java:S1854">Remove this useless assignment to local variable "employee01".(î½ÄÛ8ÚƒƒÝÐ/
+L
+java:S1481"/Remove this unused "employee01" local variable.(î½ÄÛ8ÜƒƒÝÐ/
+N	java:S106""9Replace this use of System.out or System.err by a logger.(¬éýÐ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(Äñ½…ÿÿÿÿÿ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(”Ãá§
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(Òúó½
 e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÂú*
-k	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ•ÆŽþÿÿÿÿ
+k	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ•ÆŽþÿÿÿÿ

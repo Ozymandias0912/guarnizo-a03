@@ -3,8 +3,6 @@
  *  Copyright 2021 Juan Guarnizo
  */
 
-
-
 package baseline;
 
 public class Solution30 {

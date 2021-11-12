@@ -37,7 +37,7 @@
       <recent name="baseline" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution27">
+  <component name="RunManager" selected="Gradle.Solution27Test">
     <configuration name="Solution27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baseline.Solution27" />
       <module name="exercise27.main" />
@@ -72,9 +72,31 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Solution27Test.testCheckFirstName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Solution27Test.testCheckFirstName&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Solution27Test" />
+        <item itemvalue="Gradle.Solution27Test.testCheckFirstName" />
         <item itemvalue="Application.Solution27" />
       </list>
     </recent_temporary>

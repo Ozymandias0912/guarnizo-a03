@@ -1,15 +1,13 @@
 
 P
-java:S1854)":Remove this useless assignment to local variable "choice".(êúÌ
+java:S1854'":Remove this useless assignment to local variable "choice".(êúÌ
 W
-java:S1854'"<Remove this useless assignment to local variable "question".(‰°åÔüÿÿÿÿ
+java:S1854%"<Remove this useless assignment to local variable "question".(‰°åÔüÿÿÿÿ
 P
-java:S1854-":Remove this useless assignment to local variable "choice".(ª÷ö
+java:S1854+":Remove this useless assignment to local variable "choice".(ª÷ö
 P
-java:S18540":Remove this useless assignment to local variable "choice".(ìòŒº
-a	java:S128+"LEnd this switch case with an unconditional break, return or throw statement.(¥½ï
-N	java:S106&"9Replace this use of System.out or System.err by a logger.(½œúØ
+java:S1854.":Remove this useless assignment to local variable "choice".(ìòŒº
+a	java:S128)"LEnd this switch case with an unconditional break, return or throw statement.(¥½ï
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(½œúØ
 H
-java:S1481'"-Remove this unused "question" local variable.(‰°åÔüÿÿÿÿ
-o
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(“¡úºıÿÿÿÿ
+java:S1481%"-Remove this unused "question" local variable.(‰°åÔüÿÿÿÿ

@@ -16,8 +16,6 @@
 * */
 package baseline;
 
-import baseline.Magic8Ball;
-
 import java.util.Scanner;
 
 public class Solution33 {

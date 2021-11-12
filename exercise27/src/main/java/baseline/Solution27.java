@@ -22,11 +22,7 @@ public class Solution27 {
         zipcode = scanZipcode();
 
         //create employee object
-        Employee employee01 = new Employee();
-
-        //initialize the object
-        employee01.Employee(firstName, lastName, ID, zipcode);
-
+        Employee employee01 = new Employee(firstName, lastName, ID, zipcode);
 
     }
 

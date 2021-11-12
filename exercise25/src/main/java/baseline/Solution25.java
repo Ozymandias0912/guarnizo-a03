@@ -1,11 +1,12 @@
-package baseline;
-
-import java.util.Scanner;
-
 /*
  *  UCF COP3330 Fall 2021 Assignment 3 Solutions
  *  Copyright 2021 Juan Guarnizo
  */
+package baseline;
+
+import java.util.Scanner;
+
+
 
 public class Solution25
 {
@@ -52,9 +53,6 @@ public class Solution25
     //begin passwordStrength function
      public static int  passwordStrength(String password)
     {
-
-
-
         int size = password.length();
 
         //check if the characters are digits, letters, or special characters
@@ -117,6 +115,7 @@ public class Solution25
 
 
         int strength = 0;
+
         //if the password contains only numbers and is fewer than eight characters.
         if(allDigits && (password.length() < 8))
         {
@@ -145,13 +144,6 @@ public class Solution25
         }
 
         return strength;
-
-
-
-
-
-
-
 
     }//end of passwordStrength function
 

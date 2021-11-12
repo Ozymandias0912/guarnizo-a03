@@ -1,13 +1,13 @@
 
-V	java:S125"<This block of commented-out lines of code should be removed.(¥Ü±Âúÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(»¹‰Ş
-Q	java:S125"<This block of commented-out lines of code should be removed.(¯§ÏĞ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ş¼ø³üÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(ŸĞ²İ
-M	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ”–N
-Q	java:S125"<This block of commented-out lines of code should be removed.(æ°†À
-N	java:S106#"9Replace this use of System.out or System.err by a logger.(ÓÂ™±
-V	java:S125""<This block of commented-out lines of code should be removed.(²‰Û¹üÿÿÿÿ
-Q	java:S125/"<This block of commented-out lines of code should be removed.(Ê¿ùı
-S	java:S1065"9Replace this use of System.out or System.err by a logger.(§°÷‰úÿÿÿÿ
-N	java:S1067"9Replace this use of System.out or System.err by a logger.(’´£À
+V	java:S125"<This block of commented-out lines of code should be removed.(¥Ü±Âúÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(»¹‰Ş
+Q	java:S125"<This block of commented-out lines of code should be removed.(¯§ÏĞ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ş¼ø³üÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ŸĞ²İ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ”–N
+Q	java:S125"<This block of commented-out lines of code should be removed.(æ°†À
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ÓÂ™±
+V	java:S125 "<This block of commented-out lines of code should be removed.(²‰Û¹üÿÿÿÿ
+Q	java:S125)"<This block of commented-out lines of code should be removed.(˜İã¶
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(§°÷‰úÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(’´£À

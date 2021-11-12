@@ -9,28 +9,13 @@ public class Employee {
     private String ID;
     private int zipcode;
 
-
-
-
-
-
-
-
-
-
-
-
-       public void Employee(String firstName, String  lastName, String ID, int zipcode){
-
+    public Employee(String firstName, String  lastName, String ID, int zipcode){
 
            validateInput(firstName, lastName, ID, zipcode);
 
+    }//end Employee method
 
-
-
-       }//end Employee method
-
-        void validateInput(String firstName, String  lastName, String ID, int zipcode){
+    void validateInput(String firstName, String  lastName, String ID, int zipcode){
 
             String[] errorStringArray = new String[7];
             errorStringArray[0] = "The first name must be at least 2 characters long.";
@@ -103,38 +88,26 @@ public class Employee {
             }//Using only one printing statement
         }//end validate input
 
+    public boolean checkFirstName(String firstname){
 
+        if( firstname != null && firstname.length() >= 2)
+            return true;
 
-            public static boolean checkFirstName(String firstname){
+        return false;
+    }
 
-                boolean check;
-                    if(firstname.length() == 0)
-                        check = false;
-                    if(firstname.length() >= 2)
-                        check = true;
-                    else{
-                    check = false;
-                    }
-                return check;
+    public boolean checkLastName(String lastname){
 
-            }
+        if(lastname != null && lastname.length() >= 2){
 
+            return true;
 
-            public boolean checkLastName(String lastname){
-                if(lastname.length() == 0){
-                    return false;
-                }
-                else{
-                        if (lastname.length() >= 2)
-                            return true;
-                        else{
-                            return false;
-                        }
-                }
-            }
+        }
+        return false;
 
+    }
 
-            public boolean checkID(String ID){
+    public boolean checkID(String ID){
                     if(ID.length() != 7)//check the length of the ID
                         return false;
                     if((isLetter(ID.charAt(0))) && (isLetter(ID.charAt(1))) && (ID.charAt(2) == '-')){//check the first 3 characters
@@ -152,18 +125,44 @@ public class Employee {
                     return false;
              }
 
-
-
-            public boolean isDigit(char c)
-            {
+    public boolean isDigit(char c) {
                 return  (c >= '0' && c <= '9');
             }
 
-            public boolean isLetter(char c)
-            {
+    public boolean isLetter(char c) {
                 return (c >= 'A' && c <= 'Z');
 
             }
 
+    public String getFirstName() {
+        return this.firstName;
+    }
 
-    }//end of class
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return this.lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getID() {
+        return this.ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+
+    public int getZipcode() {
+        return this.zipcode;
+    }
+
+    public void setZipcode(int zipcode) {
+        this.zipcode = zipcode;
+    }
+}//end of class

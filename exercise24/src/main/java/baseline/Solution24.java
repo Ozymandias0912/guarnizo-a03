@@ -3,23 +3,20 @@
  *  Copyright 2021 Juan Guarnizo
  */
 
-
-
-
 package baseline;
-
 
 import java.util.Scanner;
 
 public class Solution24 {
+
     public static void main(String[] args) {
 
         //new Scanner input variable;
         Scanner input = new Scanner(System.in);
 
-
         //String 1;
         String string1 = "";
+
         //String 2;
         String string2 = "";
 
@@ -28,23 +25,20 @@ public class Solution24 {
 
         //print("Enter the first string: ");
         System.out.println("Enter the first string: ");
+
         //scan the second string and save it to input1
         string1 = input.next();
 
         //print("Enter the second string: ");
         System.out.println("Enter the second string: ");
+
         //scan the second string and save it to input2
         string2 = input.next();
-
-
-
-
-
 
         //boolean check = isAnagram(string1, string2)
         boolean check = isAnagram(string1, string2);
 
-        //if (check)
+        //if (check is true)
             //print(""note" and "tone" are anagrams.");
         //else
            // print(""note" and "tone" are not anagrams.");
@@ -53,9 +47,6 @@ public class Solution24 {
             System.out.printf(" %s and %s are anagrams.%n", string1, string2);
         else
             System.out.printf(" %s and %s are not anagrams.%n", string1, string2);
-
-
-
 
     }//end main function
 

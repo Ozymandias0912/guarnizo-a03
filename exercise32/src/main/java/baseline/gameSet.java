@@ -7,9 +7,7 @@ import static java.lang.Character.isDigit;
 public class gameSet {
 
 
-
-
-    public static int gameSet(int selection){
+    public int gameSet(int selection){
         int size = 0;
         switch (selection)
         {
@@ -31,14 +29,14 @@ public class gameSet {
         return size;
     }
     //pick random number method()
-    static int randomNumber(int size){
+    public int randomNumber(int size){
         Random rand = new Random();
         int randomNumber = rand.nextInt(size) + 1;
         return randomNumber;
     }
 
     //boolean guess method()
-    static int guess( int randomNumber) {
+    public int guess( int randomNumber) {
         int check = 0;
 
         System.out.println("Guess the number...");
@@ -68,7 +66,7 @@ public class gameSet {
 
 
     //boolean checkInput method(input)
-    static boolean checkInput(String input){
+    public boolean checkInput(String input){
         int size = input.length();
         boolean check = true;
         for(int i = 0; i < size; i++){
@@ -82,7 +80,7 @@ public class gameSet {
 
 
     //void hint method(input)
-    static void hint(int guessNum, int randomNum){
+    public void hint(int guessNum, int randomNum){
         if(guessNum < randomNum){
             System.out.println("Your guess was too low");
         }

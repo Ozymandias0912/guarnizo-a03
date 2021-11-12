@@ -7,7 +7,7 @@ public class fitness {
 
 
 
-    //constructor method
+//constructor method
 
     public  fitness(double age, double resPulse){
         if(age >= 15 && age <= 70)
@@ -50,5 +50,21 @@ public class fitness {
 
         }
 
+    }
+
+    public double getAge() {
+        return age;
+    }
+
+    public void setAge(double age) {
+        this.age = age;
+    }
+
+    public double getRestingPulse() {
+        return restingPulse;
+    }
+
+    public void setRestingPulse(double restingPulse) {
+        this.restingPulse = restingPulse;
     }
 }
